@@ -1,0 +1,34 @@
+{
+  "name": "ci3-intellisense",
+  "author": {
+    "name": "idnasirasira",
+    "email": "idnasirasira@gmail.com"
+  },
+  "displayName": "CodeIgniter 3 IntelliSense",
+  "description": "Auto-completion and definition support for CodeIgniter 3",
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ci.refreshModels",
+        "title": "CI: Refresh Model"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^4.5.5",
+    "vscode": "^1.1.37"
+  }
+}
