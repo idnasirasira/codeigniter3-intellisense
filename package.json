@@ -4,8 +4,13 @@
     "name": "idnasirasira",
     "email": "idnasirasira@gmail.com"
   },
+  "publisher": "idnasirasira",
   "displayName": "CodeIgniter 3 IntelliSense",
   "description": "Auto-completion and definition support for CodeIgniter 3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idnasirasira/codeigniter3-intellisense"
+  },
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.60.0"
